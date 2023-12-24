@@ -538,7 +538,7 @@ footer {
   border-color: #007bff;
   z-index: 3;
 }
-div.pagination-container {
+.pagination-container {
   margin-top: -24vh;
 }
 /* Social Icons for footer */
