@@ -31,6 +31,16 @@ main {
   z-index: 100;
 }
 
+.intro h1{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This makes the intro section take the full height of the viewport */
+  width: 100vh;
+}
+
 .navbar a {
   margin: 5px;
   float: none;
@@ -528,7 +538,9 @@ footer {
   border-color: #007bff;
   z-index: 3;
 }
-
+div.pagination-container {
+  margin-top: -24vh;
+}
 /* Social Icons for footer */
 
 .social-icons a {
